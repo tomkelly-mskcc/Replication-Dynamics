@@ -2,7 +2,7 @@
 Modeling S. pombe Replication dynamics
 
 ## Project
-The project implements a simple probabilistic model for analyzing DNA combing data and polymerase usage data
+The project implements a simple probabilistic model for analyzing DNA combing data and polymerase usage data.  for more information email tkelly@mskcc.org 
 
 ## Getting Started
 The main method for analysis of combing data is in the file: “src/CombingExperimentSimulation.java”.
