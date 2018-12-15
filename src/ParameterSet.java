@@ -34,7 +34,6 @@ public class ParameterSet {
     public static final String COMBING_DATA_FOLDER; //Folder containing Kaykov and Nurse 2015 dataset reformatted by TKelly
     public final static String FA_SEQ_FILE;  //Seqeunce file of chromosome II in FastA format
     public static final String BIN_COUNT_FILE; //File of bin counts - raw Pu-seq data from Daigaku et al 2015
-    public final static String RIF1_INTERVAL_FILE; //File containg Rif1 sites from Hyano et al 2012
     public static final String CHROMOSOME_II_GENBANK;  //Genbank file for chromosome II
     public final static int SEQUENCE_START;  //needs to be on bin boundary
     public final static int SEQUENCE_END;  //needs to be on bin boundary
@@ -67,7 +66,6 @@ public class ParameterSet {
     FA_SEQ_FILE = HOME_DIR + "/Dropbox/Sync/NetBeansProjects/FilesForTesting/pombe_sequenceII_test.fa";
     COMBING_DATA_FOLDER = HOME_DIR + "/Dropbox/Replication Modeling/Origin Project/csvFiles";
     BIN_COUNT_FILE = HOME_DIR + "/Dropbox/Sync/Carr Stuff/2015 Daigaku &Carr Nat S Mol Bio/Chromosome_II_bin_counts.csv";
-    RIF1_INTERVAL_FILE = HOME_DIR + "/Dropbox/Sync/NetBeansProjects/FilesForTesting/Rif1Intervals.txt";
     CHROMOSOME_II_GENBANK = HOME_DIR + "/Dropbox/Sync/Carr Stuff/pombe 294v2.23/Schizosaccharomyces_pombe.ASM294v2.23.II.genbank";
     SEQUENCE_START = 0;  //needs to be on bin boundary
     SEQUENCE_END = 4539599;  //4539599 this is seqlength - 1 seqLength - seqlength needs to be  integral number of bins 12999900
