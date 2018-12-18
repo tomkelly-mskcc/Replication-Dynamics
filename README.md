@@ -21,7 +21,8 @@ The value static variables holding the file paths in src/ ParameterSet.java shou
 |FA_SEQ_FILE              |Chromosome-II-Sequence/Chromosome-II_Sequence.fa|
 |COMBING_DATA_FOLDER      |DNA-Combing-Data|
 |BIN_COUNT_FILE           |PU-Seq-DataChromosome_II_bin_counts.csv|
-|CHROMOSOME_II_GENBANK	    |Chromosome-II-Anotation/ Schizosaccharomyces_pombe.ASM294v2.23.II.genbank|
+|CHROMOSOME_II_GENBANK	    |Chromosome-II-Anotation/Schizosaccharomyces_pombe.ASM294v2.23.II.genbank|
+|RIF1_INTERVAL_FILE       |Rif1-Sites/Rif1Intervals.txt|
 
 The DNA cobing data is from  Kaykov A & Nurse P (2015) The spatial and temporal organization of origin firing during the S-phase of fission yeast. Genome Res 25(3):391-401.
 
