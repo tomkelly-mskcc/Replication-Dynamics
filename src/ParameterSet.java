@@ -64,11 +64,14 @@ public class ParameterSet {
     static {
     GENOME_NAME = "S_POMBE_CHROMOSOME_II";
     HOME_DIR = System.getProperty("user.home");
+        
+    //REPLACE FILE NAMES AS APPROPRIATE
     FA_SEQ_FILE = HOME_DIR + "/Dropbox/Sync/NetBeansProjects/FilesForTesting/pombe_sequenceII_test.fa";
     COMBING_DATA_FOLDER = HOME_DIR + "/Dropbox/Replication Modeling/Origin Project/csvFiles";
     BIN_COUNT_FILE = HOME_DIR + "/Dropbox/Sync/Replication Modeling/Carr Stuff/2015 Daigaku &Carr Nat S Mol Bio/Chromosome_II_bin_counts.csv";
     CHROMOSOME_II_GENBANK = HOME_DIR + "/Dropbox/Sync/Replication Modeling/Carr Stuff/pombe 294v2.23/Schizosaccharomyces_pombe.ASM294v2.23.II.genbank";
     RIF1_INTERVAL_FILE = HOME_DIR + "/Dropbox/Sync/NetBeansProjects/FilesForTesting/Rif1Intervals.txt";
+        
     SEQUENCE_START = 0;  //needs to be on bin boundary
     SEQUENCE_END = 4539599;  //4539599 this is seqlength - 1 seqLength - seqlength needs to be  integral number of bins 12999900
     SEQUENCE_LENGTH = SEQUENCE_END - SEQUENCE_START + 1;
