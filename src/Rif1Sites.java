@@ -40,7 +40,7 @@ public class Rif1Sites {
     
     /**
      * Reads coordinates of Rif1 sites from file into a List of SeqInterval
-     * @param p 
+     * @param p path to file containing Rif1 sites
      */   
     public Rif1Sites(Path p) {
         String rawLine;
