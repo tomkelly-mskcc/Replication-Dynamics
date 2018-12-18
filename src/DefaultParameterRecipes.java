@@ -41,7 +41,7 @@ public class DefaultParameterRecipes {
     static {
         DEFAULT_PARAMETER_RECIPES.put("initiatorSiteLength", "int,25,1,5"); //length of window for initiator binding
         DEFAULT_PARAMETER_RECIPES.put("numberPreRCs", "int,363,1,50"); //363 for chromosome 2 1040 for genome
-        DEFAULT_PARAMETER_RECIPES.put("numberCells", "int,100,1,1000"); //size of cell poulation -number or replicated molecules
+        DEFAULT_PARAMETER_RECIPES.put("numberCells", "int,1000,1,1000"); //size of cell poulation -number or replicated molecules
         DEFAULT_PARAMETER_RECIPES.put("exponentialCoefficient","double,9e-11,1,1"); //DEPRECATED
         DEFAULT_PARAMETER_RECIPES.put("exponentialPowerFactor","double,21,1,1");// Now constant in exponential function for AT content
         DEFAULT_PARAMETER_RECIPES.put("maxFiringProbabilityPerMin", "double,0.3,1,.1"); // maximum firing rate - prev optimimization 0.22  .3
