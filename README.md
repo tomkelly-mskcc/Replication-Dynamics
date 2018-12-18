@@ -28,6 +28,8 @@ The DNA cobing data is from  Kaykov A & Nurse P (2015) The spatial and temporal 
 
 The DNA polymerase usage data are from Daigaku Y, et al. (2015) A global profile of replicative polymerase usage. Nat Struct Mol Biol 22(3):192-198.
 
+Rif1 sites are from Hayano M, et al. (2012) Rif1 is a global regulator of timing of replication origin firing in fission yeast. Genes Dev 26(2):137-150.
+
 The DNA seqeunce and annotation of *S. pombe* chromosome II is from GENBANK.
 
 ## Parameter Scanning
