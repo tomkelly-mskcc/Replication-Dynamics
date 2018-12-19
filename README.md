@@ -2,7 +2,7 @@
 Modeling S. pombe Replication dynamics
 
 ## Project
-The project implements a probabilistic model for analyzing DNA combing data and polymerase usage data.  for more information email tkelly@mskcc.org 
+The project implements a probabilistic model for analyzing DNA combing data and polymerase usage data.  For more information email tkelly@mskcc.org 
 
 ## Getting Started
 The main method for analysis of combing data is in the file: “src/CombingExperimentSimulation.java”.
@@ -14,7 +14,7 @@ The main method for analysis of polymerase usage data is in the file:
 The paths to required data files (and other global parameters) are defined as static variables in the file:
 src/ ParameterSet.java
 
-The value static variables holding the file paths in src/ ParameterSet.java should be changed to the locations of the following files:
+The values of static variables holding the file paths in src/ ParameterSet.java should be changed to the locations of the following files:
 
 |**variable name**        |**name of file or folder in this repository**|
 |-------------             |---------------------------------------------|
@@ -36,5 +36,6 @@ The DNA seqeunce and annotation of *S. pombe* chromosome II is from GENBANK.
 The key replication parameters that define the dynamics of replication can be scanned over ranges of values by a set of recipes given in the file “src/DefaultParameterRecipes.java” 
 
 ## License
+Copyright Thomas Kelly 2018
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
